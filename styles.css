@@ -39,11 +39,12 @@ border-radius: 1em;
    border-radius: 1em;
 }
 .toppings{
-    text-align: center;
+    text-align:center;
     border: 2px solid;
     padding: 1em;
     margin: 1em;
     border-radius: 1em;
+    
 }
 .footer{
     background-color: rgb(94, 212, 216);
@@ -58,8 +59,12 @@ border-radius: 1em;
         padding: 0.5em;
         margin: 1em;
     }
+@media (min-width: 760px) {
+    body {background-color: burlywood;}
+}
 
 @media (min-width: 960px){
+    body {background-color: #FFEEDB;}
 
 .pizza {display: flex;}
 }
